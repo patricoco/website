@@ -1,0 +1,159 @@
+/* header*/
+body, h1, h2, h3, p, ul, li, form, img {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #ffd700; 
+}
+
+
+nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    margin-right: 15px;
+}
+
+nav form {
+    display: flex;
+    align-items: center;
+}
+
+nav input[type="text"],
+nav input[type="password"] {
+    padding: 5px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+nav button[type="submit"] {
+    padding: 5px 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+nav button[type="submit"]:hover {
+    color: #ffd700; /* Change the text color on hover to yellow */
+}
+
+
+nav a[href="signup.php"] {
+    margin-left: 10px;
+}
+
+/* Adjust logo size */
+nav img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%; /* This makes the image circular */
+    overflow: hidden; /* Hide any overflowing content */
+}
+
+/* logout button  */
+nav form:last-child button[type="submit"] {
+    background-color: #ff6347;
+}
+
+
+/* main */
+main {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    /* letting signup form in the middle of the box */
+    display: flex;
+    justify-content: center; /* Horizontally center items */
+    
+}
+
+/*main content */
+main h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+main p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+/* signup page */
+.wrapper-main {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center; 
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.wrapper-main form {
+    display: flex;
+    flex-direction: column;
+}
+
+.wrapper-main input {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.wrapper-main button {
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #555;
+}
+
