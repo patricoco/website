@@ -1,9 +1,23 @@
-#scrollingImage {
-  top: 0;
-  height: auto !important;
+body {
+  margin: 0;
+  padding-top: 100px;
+}
+
+.header {
+  width: 100%;
   z-index: 999;
-  margin-right:10px;
   text-align: center;
+}
+
+.header img {
+  margin: 10px auto;
+  position: sticky;
+  top: 0;
+}
+.container {
+  width: 80%;
+  max-width: 600px;
+  margin: 100px auto 20px; /* Adjusted margin property */
 }
 
 .panel {
@@ -16,13 +30,7 @@
   transition: max-height 0.2s ease-in-out;
 }
 
-.container {
-  width: 80%;
-  max-width: 600px;
-  margin: 50px auto;
-}
-
-button.accordion {
+button.accordion{
   width: 100%;
   background-color: whitesmoke;
   border: none;
@@ -50,3 +58,5 @@ button.accordion:hover,
 button.accordion.is-open {
   background-color: #ddd;
 }
+
+/* Additional styles as needed */
