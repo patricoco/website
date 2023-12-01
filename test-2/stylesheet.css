@@ -1,10 +1,10 @@
 #scrollingImage {
-  position: fixed;
   top: 0;
   left: 0;
   height: auto !important;
   z-index: 999;
   margin-right:10px;
+  text-align: center;
 }
 
 .panel {
