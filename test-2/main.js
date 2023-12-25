@@ -18,4 +18,12 @@ document.addEventListener("DOMContentLoaded", function () {
       }
     };
   });
+
+
+  document.addEventListener('DOMContentLoaded', function () {
+    document.getElementById('close').style.display = 'block';
+  });
+  document.getElementById('close').addEventListener('click', function() {
+    document.getElementById('limitedBanner').style.display = 'none';
+  });
 });
